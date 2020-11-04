@@ -1,6 +1,6 @@
 FROM vaday/secureweb
 EXPOSE 8080
-Expose 80
+EXPOSE 80
 RUN apt-get update -y
 RUN apt-get install -y golang git curl
 
