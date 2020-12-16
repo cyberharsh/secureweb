@@ -1,4 +1,4 @@
-FROM vaday/secureweb
+FROM vaday/websecure
 EXPOSE 8080
 EXPOSE 80
 RUN apt-get update -y
